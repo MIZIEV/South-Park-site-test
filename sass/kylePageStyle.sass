@@ -1,0 +1,41 @@
+@import "_variables.sass"
+@import "_mixins.sass"
+
+.kyle-image
+    &-main
+        @include picture-wrapper
+        margin-left: 10px
+        float: right
+    &-appearance
+        @include picture-wrapper
+        margin-right: 10px
+        float: left
+    &-music
+        @include picture-wrapper
+        margin-left: 10px
+        float: right
+    &-sport
+        @include picture-wrapper
+        margin-left: 10px
+        float: right
+@media (max-width: 540px)
+    #generally
+        margin-top: 25%
+    .kyle-image
+        &-main
+            @include picture-wrapper-mobile
+        &-appearance
+            @include picture-wrapper-mobile
+        &-music
+            @include picture-wrapper-mobile
+        &-sport
+            @include picture-wrapper-mobile
+.footer
+    height: 65px
+.nav-link
+    color: $main-dark-color
+    &.active
+        background-color: $main-dark-color
+        color: white !important
+    &:hover
+        color: $hover-color

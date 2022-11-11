@@ -1,0 +1,50 @@
+@import "_variables.sass"
+@import "_mixins.sass"
+
+.matt-image-main
+    @include picture-middle-size-config
+    margin-left: 10px
+    float: right
+.cannubal-musical-image
+    @include picture-middle-size-config
+    margin-left: 10px
+    float: right
+.spirit-of-cristmas
+    @include picture-wrapper
+    margin-left: 10px
+    float: right
+.mat-with-trey-image
+    @include picture-wrapper
+    margin-left: 10px
+    float: right
+.my-bush-poster
+    @include picture-middle-size-config
+    margin-left: 10px
+    float: right
+.south-park-poster
+    @include picture-middle-size-config
+    margin-left: 10px
+    float: right
+@media (max-width: 540px)
+    #generally
+        margin-top: 25%
+    .matt-image-main
+        @include picture-wrapper-mobile        
+    .cannubal-musical-image
+        @include picture-wrapper-mobile
+    .spirit-of-cristmas
+        @include picture-wrapper-mobile
+    .mat-with-trey-image
+        @include picture-wrapper-mobile
+    .my-bush-poster
+        @include picture-wrapper-mobile
+    .south-park-poster
+        @include picture-wrapper-mobile
+.subtitle
+    font-style: italic
+    font-weight: bold
+.nav-link
+    color: $main-dark-color
+    &.active
+        background-color: $main-dark-color
+        color: white !important

@@ -1,0 +1,148 @@
+.trey-image-main {
+  border-color: black;
+  border-width: 2px;
+  padding: 5px;
+  max-width: 20%;
+  max-height: 20%;
+  margin-left: 10px;
+  float: right;
+}
+.trey-image-young {
+  border-color: black;
+  border-width: 2px;
+  padding: 5px;
+  max-width: 20%;
+  max-height: 20%;
+  margin-right: 10px;
+  float: left;
+}
+
+.south-park-image-bigger-longer-uncut {
+  border-color: black;
+  border-width: 2px;
+  padding: 5px;
+  max-width: 20%;
+  max-height: 20%;
+  margin-left: 10px;
+  float: right;
+}
+
+.cannubal-musical-image {
+  border-color: black;
+  border-width: 2px;
+  padding: 5px;
+  max-width: 20%;
+  max-height: 20%;
+  margin-left: 10px;
+  float: right;
+}
+
+.jesus-vs-frosty-image {
+  border-color: black;
+  border-width: 2px;
+  padding: 5px;
+  max-width: 20%;
+  max-height: 20%;
+  margin-left: 10px;
+  float: right;
+}
+
+.thats-my-bush-image {
+  border-color: black;
+  border-width: 2px;
+  padding: 5px;
+  max-width: 20%;
+  max-height: 20%;
+  margin-left: 10px;
+  float: right;
+}
+
+.team-america-image {
+  border-color: black;
+  border-width: 2px;
+  padding: 5px;
+  margin-left: 10px;
+  max-width: 15%;
+  max-height: 15%;
+  float: right;
+}
+
+@media (max-width: 540px) {
+  #generally {
+    margin-top: 25%;
+  }
+  .trey-image-main {
+    border-color: black;
+    border-width: 2px;
+    margin: 5px;
+    max-width: 80%;
+    max-height: 80%;
+    float: none;
+  }
+  .trey-image-young {
+    border-color: black;
+    border-width: 2px;
+    margin: 5px;
+    max-width: 80%;
+    max-height: 80%;
+    float: none;
+  }
+  .south-park-image-bigger-longer-uncut {
+    border-color: black;
+    border-width: 2px;
+    margin: 5px;
+    max-width: 80%;
+    max-height: 80%;
+    float: none;
+  }
+  .cannubal-musical-image {
+    border-color: black;
+    border-width: 2px;
+    margin: 5px;
+    max-width: 80%;
+    max-height: 80%;
+    float: none;
+  }
+  .jesus-vs-frosty-image {
+    border-color: black;
+    border-width: 2px;
+    margin: 5px;
+    max-width: 80%;
+    max-height: 80%;
+    float: none;
+  }
+  .thats-my-bush-image {
+    border-color: black;
+    border-width: 2px;
+    margin: 5px;
+    max-width: 80%;
+    max-height: 80%;
+    float: none;
+  }
+  .team-america-image {
+    border-color: black;
+    border-width: 2px;
+    margin: 5px;
+    max-width: 80%;
+    max-height: 80%;
+    float: none;
+  }
+}
+.quote {
+  padding: 0px 10%;
+  text-align: center;
+  font-style: italic;
+}
+
+.subtitle {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #212429 !important;
+}
+.nav-link.active {
+  background-color: #212429 !important;
+  color: white !important;
+}

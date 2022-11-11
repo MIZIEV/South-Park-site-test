@@ -1,0 +1,47 @@
+@import "_variables.sass"
+@import "_mixins.sass"
+
+.kenny-image
+    &-main
+        @include picture-wrapper
+        margin-top: 10px
+        float: right
+    &-death
+        @include picture-wrapper
+        margin-right: 10px
+        float: left
+    &-death-2
+        @include picture-wrapper
+        margin-left: 10px
+        float: right
+    &-hero
+        @include picture-wrapper
+        margin-right: 10px
+        float: left
+    &-sport
+        @include picture-wrapper
+        margin-left: 10px
+        float: right
+@media (max-width: 540px)
+    #generally
+        margin-top: 25%
+    .kenny-image
+        &-main
+            @include picture-wrapper-mobile
+        &-death
+            @include picture-wrapper-mobile
+        &-death-2
+            @include picture-wrapper-mobile
+        &-hero
+            @include picture-wrapper-mobile
+        &-sport
+            @include picture-wrapper-mobile
+.footer
+    height: 65px
+.nav-link
+    color: $main-dark-color
+    &.active
+        background-color: $main-dark-color
+        color: white !important
+    &:hover
+        color: $hover-color

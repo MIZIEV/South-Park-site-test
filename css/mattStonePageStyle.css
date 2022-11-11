@@ -1,0 +1,125 @@
+.matt-image-main {
+  border-color: black;
+  border-width: 2px;
+  padding: 5px;
+  max-width: 15%;
+  max-height: 15%;
+  margin-left: 10px;
+  float: right;
+}
+
+.cannubal-musical-image {
+  border-color: black;
+  border-width: 2px;
+  padding: 5px;
+  max-width: 15%;
+  max-height: 15%;
+  margin-left: 10px;
+  float: right;
+}
+
+.spirit-of-cristmas {
+  border-color: black;
+  border-width: 2px;
+  padding: 5px;
+  max-width: 20%;
+  max-height: 20%;
+  margin-left: 10px;
+  float: right;
+}
+
+.mat-with-trey-image {
+  border-color: black;
+  border-width: 2px;
+  padding: 5px;
+  max-width: 20%;
+  max-height: 20%;
+  margin-left: 10px;
+  float: right;
+}
+
+.my-bush-poster {
+  border-color: black;
+  border-width: 2px;
+  padding: 5px;
+  max-width: 15%;
+  max-height: 15%;
+  margin-left: 10px;
+  float: right;
+}
+
+.south-park-poster {
+  border-color: black;
+  border-width: 2px;
+  padding: 5px;
+  max-width: 15%;
+  max-height: 15%;
+  margin-left: 10px;
+  float: right;
+}
+
+@media (max-width: 540px) {
+  #generally {
+    margin-top: 25%;
+  }
+  .matt-image-main {
+    border-color: black;
+    border-width: 2px;
+    margin: 5px;
+    max-width: 80%;
+    max-height: 80%;
+    float: none;
+  }
+  .cannubal-musical-image {
+    border-color: black;
+    border-width: 2px;
+    margin: 5px;
+    max-width: 80%;
+    max-height: 80%;
+    float: none;
+  }
+  .spirit-of-cristmas {
+    border-color: black;
+    border-width: 2px;
+    margin: 5px;
+    max-width: 80%;
+    max-height: 80%;
+    float: none;
+  }
+  .mat-with-trey-image {
+    border-color: black;
+    border-width: 2px;
+    margin: 5px;
+    max-width: 80%;
+    max-height: 80%;
+    float: none;
+  }
+  .my-bush-poster {
+    border-color: black;
+    border-width: 2px;
+    margin: 5px;
+    max-width: 80%;
+    max-height: 80%;
+    float: none;
+  }
+  .south-park-poster {
+    border-color: black;
+    border-width: 2px;
+    margin: 5px;
+    max-width: 80%;
+    max-height: 80%;
+    float: none;
+  }
+}
+.subtitle {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #212429 !important;
+}
+.nav-link.active {
+  background-color: #212429 !important;
+  color: white !important;
+}

@@ -1,0 +1,71 @@
+.cartman-image-main {
+  border-color: black;
+  border-width: 2px;
+  padding: 5px;
+  max-width: 20%;
+  max-height: 20%;
+  margin-left: 10px;
+  float: right;
+}
+.cartman-image-personality {
+  border-color: black;
+  border-width: 2px;
+  padding: 5px;
+  max-width: 20%;
+  max-height: 20%;
+  margin-right: 10px;
+  float: left;
+}
+.cartman-image-sport {
+  border-color: black;
+  border-width: 2px;
+  padding: 5px;
+  max-width: 20%;
+  max-height: 20%;
+  margin-right: 10px;
+  float: left;
+}
+
+@media (max-width: 540px) {
+  #generally {
+    margin-top: 25%;
+  }
+  .cartman-image-main {
+    border-color: black;
+    border-width: 2px;
+    margin: 5px;
+    max-width: 80%;
+    max-height: 80%;
+    float: none;
+  }
+  .cartman-image-personality {
+    border-color: black;
+    border-width: 2px;
+    margin: 5px;
+    max-width: 80%;
+    max-height: 80%;
+    float: none;
+  }
+  .cartman-image-sport {
+    border-color: black;
+    border-width: 2px;
+    margin: 5px;
+    max-width: 80%;
+    max-height: 80%;
+    float: none;
+  }
+}
+.footer {
+  height: 65px;
+}
+
+.nav-link {
+  color: #212429 !important;
+}
+.nav-link.active {
+  background-color: #212429 !important;
+  color: white !important;
+}
+.nav-link:hover {
+  color: #4b6584 !important;
+}
